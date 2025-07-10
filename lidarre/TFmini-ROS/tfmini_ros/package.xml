@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="1">
+  <name>tfmini_ros</name>
+  <version>0.0.1</version>
+  <description>The TFmini ROS driver package</description>
+
+  <maintainer email="wenquan@todo.todo">wenquan</maintainer>
+  <author>TAN</author>
+  <license>MIT</license>
+
+  <!-- Build tool dependency -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>boost</build_depend>
+
+  <!-- Run dependencies -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>boost</run_depend>
+
+  <export>
+  </export>
+</package>
+
